@@ -1,0 +1,42 @@
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-around; /* alinhamento eixo X (HORIZONTAL) */
+    align-items: flex-start; /* alinhamento eixo Y (VERTICAL) */
+    background-color: black;
+}
+header > ul{
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+ul > li > a{
+    text-decoration: none;
+    display: block;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+/* FIM HEADER */
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    color: white;
+    align-items: flex-end; /* alinhamento eixo Y (VERTICAL) */
+    background-color: black;
+    padding: 20px 0px;
+    bottom: 0;
+}
+footer > p{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* FIM FOOTER */

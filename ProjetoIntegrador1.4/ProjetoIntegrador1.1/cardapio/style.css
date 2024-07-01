@@ -1,0 +1,92 @@
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-around; /* alinhamento eixo X (HORIZONTAL) */
+    align-items: flex-start; /* alinhamento eixo Y (VERTICAL) */
+    background-color: #8c1a1a;
+}
+header > ul{
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+ul > li > a{
+    text-decoration: none;
+    display: block;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+/* FIM HEADER */
+
+.containerCard{
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden ;
+    display: flex;
+    justify-content: center;
+
+}
+.containerCard > h1{
+    margin: 20px;
+    width: 100%;
+    display: block;
+    margin-left: 110px;
+}
+
+
+/* SANDUICHES */
+h1{
+    color: #8c1a1a;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    display: flex;
+}
+ul > li{
+    text-decoration: none;
+    display: block;
+}
+img{
+    width: 100%;
+}
+
+/* FIM SANDUICHES */
+
+
+/* COMBOS */
+.combos{
+    display: flex;
+    width: 300px;
+    margin: 20px;
+    height: auto; 
+    flex-wrap: wrap; 
+    text-align: center;
+}
+.combos > p{
+    text-align: justify;
+}
+/* FIM COMBOS */
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    color: white;
+    align-items: flex-end; /* alinhamento eixo Y (VERTICAL) */
+    background-color: #8c1a1a;
+    padding: 20px 0px;
+    bottom: 0;
+}
+footer > p{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* FIM FOOTER */
